@@ -36,13 +36,12 @@ A simple web application that helps users track their personal finances by loggi
 
 ```bash
 git clone https://github.com/vesc0/finance-tracker-frontend
-cd finance-tracker-frontend
 ```
 
 ### Setup
 
 ```bash
-cd frontend
+cd finance-tracker-frontend
 npm install
 npm run dev
 ```
