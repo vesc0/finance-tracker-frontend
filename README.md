@@ -1,12 +1,72 @@
-# React + Vite
+# Finance Tracker Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application that helps users track their personal finances by logging transactions, visualizing analytics, and monitoring spending goals — built with React.
 
-Currently, two official plugins are available:
+## Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)   
+- [Screenshots](#screenshots)  
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User authentication (register, login, logout)
+- Profile update (email, password, name, goal)
+- Add income and expenses
+- Categorize transactions (salary, bills, custom, etc.)
+- Monthly analytics: income vs expenses
+- Category analytics: expenses
+- Net worth and goal tracking
+- Transaction history table with search option
+- Responsive and modern UI
+
+## Tech Stack
+
+- **React** + **Vite**
+- **Tailwind CSS** for styling
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js & npm
+
+### Clone the Repo
+
+```bash
+git clone https://github.com/vesc0/finance-tracker-frontend
+cd finance-tracker-frontend
+```
+
+### Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/login.png" alt="login">
+</p>
+
+---
+
+<p align="center">
+  <img src="screenshots/dashboard.png" alt="dashboard">
+</p>
+
+---
+
+<p align="center">
+  <img src="screenshots/transactions.png" alt="transactions">
+</p>
+
+---
+
+<p align="center">
+  <img src="screenshots/mobile.png" alt="mobile">
+</p>
